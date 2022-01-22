@@ -589,7 +589,7 @@
 		font-style: Normal;
 		src: url('Fonts/Lato/Lato-Light.ttf');
 	}
-
+	
 	@font-face {
 		font-family: 'Lato';
 		font-weight: 400;
@@ -9303,80 +9303,11 @@ p {
 
 @media only screen and (min-width : 150px) and (max-width:991px) {
 
-<<<<<<< HEAD
 	footer,
 	header#ttr_header {
 		max-width: 100%;
 		width: auto;
 	}
-=======
-{
-}
- .nav.ttr_menu_items  li  ul.child li .separator
-{
-border-width:0 0 0 0;
-border-style:solid;
-border-color:transparent;
-height:auto;
-margin:0 0 0 0;
-display:none;
-}
- .nav.ttr_menu_items  li ul.child ul li .separator, .nav.ttr_menu_items  li  li:hover ul li .separator, .nav.ttr_menu_items  li li:hover li:hover ul li .separator
-{
-border-width:0 0 0 0;
-border-style:solid;
-border-color:transparent;
-height:auto;
-margin:0 0  0 0;
-display:none;
-}
- .nav.ttr_menu_items li .child li ul li:last-child .separator
-{
-display:none;
-}
- .ttr_menu_items .horiz_separator
-{
-float:right;
-border-width:0 0 0 0;
-border-style:solid;
-border-color:transparent;
-height:48px;
-margin-top:0;
-margin-bottom:0;
-display:none;
-}
- header #ttr_header_inner 
-{
-background:url(images/banner.jpeg);
-background-color:#FFFFFF;
-background-repeat:no-repeat;
-background-size:cover;
-background-position:Center Top;
-background-clip:padding-box;border-radius:0 0 0 0;
-border:solid rgba(231,231,231,1);
-border-width: 0 0 0 0;
-box-shadow:none;
-}
- header#ttr_header
-{
-height:auto;
-width: auto;
-box-sizing:border-box;
-}
- #ttr_header_video
-{
-visibility: hidden;
-}
-@media only screen and (min-width:1200px) 
-{
- .ttr_header_element_alignment.container 
-{
-width:85%;}
-}
- #ttr_menu 
-{
-width:auto;
->>>>>>> bb4b62536d02b5e2ea6bb2a9ab4a021906fd4b2c
 
 	.ttr_header_element_alignment.container,
 	.ttr_menu_element_alignment.container,
@@ -11440,17 +11371,9 @@ div[class^="ttr_footershape"] .html_content {
 	}
 }
 
-@media screen and (max-width: 600px) {
-	#ttr_header_inner{
-		width: auto;
-		background: url(./images/myimage600px.png) !important;
-		background-color: #06895F;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: Center Center;
-		background-clip: padding-box;
-	}
-  }
+/* @media screen and (max-width: 600px) {
+	
+  } */
 
 /* mobile view end */
 
@@ -11461,4 +11384,17 @@ div[class^="ttr_footershape"] .html_content {
 
 }
 
-
+@media screen and (max-width: 600px) {
+	header #ttr_header_inner {
+		background: url(images/myimage600px.png);
+		background-color: #FFFFFF;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: Center Top;
+		background-clip: padding-box;
+		border-radius: 0 0 0 0;
+		border: solid rgba(231, 231, 231, 1);
+		border-width: 0 0 0 0;
+		box-shadow: none;
+	}
+  }
